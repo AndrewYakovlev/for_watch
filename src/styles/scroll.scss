@@ -1,0 +1,31 @@
+*,
+html * /* override x.xhtml.ru style */
+{
+  scrollbar-width: #3172c4;
+  scrollbar-color: blue #dfdfdf;
+}
+
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+  height: 4px;
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 2px;
+  border: 2px solid #ccc;
+}
+
+/* this stuff below doesn't
+   affect scrollbar styling */
+html {
+  background: lightgrey;
+  overflow: hidden;
+}
